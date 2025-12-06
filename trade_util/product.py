@@ -12,6 +12,7 @@ class Product(FilterBase):
     HS_7411 = "7411"
     HS_7412 = "7412"
     HS_7413 = "7413"
+    HS_2603 = "2603"
 
     def get_value(self) -> str:
         return self.value
